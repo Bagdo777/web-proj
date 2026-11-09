@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Plus Jakarta Sans', sans-serif;
+ background-color: #F2F2F2;
+   background-repeat: no-repeat;
+ margin-top: 0;
+ padding: 0;
+}
+
+.logo{
+    font-size: 24px;
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+     
+}
+h1{
+    padding-top: 0;
+    font-size: 30px;
+}
+
+.btn{
+    background-color: #0a144b;
+    color: #fff;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px !important;
+    margin-left: 15px !important;
+    
+}
+
+/*teqsti marcxniv*/
+
+.mt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.mt-text{
+   max-width: 900px;         
+    margin: 0px 0 0 80px;
+}
+
+.mt-text h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.mt-text p{
+    font-size: 16px;
+    color: #8a8fa3;
+    margin-bottom: 24px;
+}
+
+.btn-gradient{
+    background: linear-gradient(180deg, #ff6b4a, #ee3fa0);
+    color: #fff;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+/*shape ebi marjvniv*/
+.hero{
+    position: relative;
+    height: 250px;             
+}
+
+.mtavari{
+    position: absolute;
+    top: -60px;
+    right: 0;
+    width: 360px;
+    height: 440px;
+   
+}
+
+.arch{
+    background:linear-gradient(180deg, #ff5a1f, #e8559a);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 240px;
+    height: 360px;
+    border-radius: 45%;
+    z-index: 2;
+}
+
+.purple{
+    position: absolute;
+    left: 170px;
+    right: 0;
+    top: -10px;
+    height: 80%;
+    background: linear-gradient(180deg, #5b3fd6, #c457d0);
+    clip-path: polygon(0 18%, 100% 0, 100% 78%, 45% 100%, 0 100%);
+    z-index: 1;
+}
+
+
+.card{
+    position: absolute;
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px 24px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 3;
+}
+
+.card span{
+    font-size: 14px;
+    color: #8a8fa3
+}
+
+.card strong{
+    font-size: 32px;
+    color: #1a1a3e;
+}
+
+.xalxi {
+    top: 60px;
+    right: 20px;
+}
+
+.saati {
+    bottom: 20px;
+    left: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+/*baratebi*/
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 40px;
+    padding: 0 30px 80px;   
+    margin-top: 200px;
+}
+
+.course-intro{
+    background: linear-gradient(180deg, #ff6b4a, #ee3fa0);
+    border-radius: 12px;
+    padding: 90px 32px 32px;
+    width: 360px;
+    height: 280px;
+    margin: 0;
+}
+
+.course-intro h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 240px;
+}
+
+
+/*gilakebi*/
+
+button{
+   border: none;
+   background: none;
+   font-size: 22px;
+   margin-top: 70px;
+   cursor:pointer
+}
+
+
+
+/*animation bareti*/
+
+
+
+.animation{
+    display: grid;
+    background-color: #fff;
+    padding: 0 20px 80px;   
+    margin-top: 0;
+    width: 360px;
+    height: 280px;
+    position: relative; 
+}
+
+.animation h4{
+    margin-top: 55px;
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 240px;
+}
+
+.down {
+   color: #e8559a;
+   margin-top: -40px ;
+   
+}
+
+.animation p {
+    color: #8a8fa3;
+}
+
+.cyc{
+    display: flex; 
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ff6b4a, #ee3fa0);
+    color: white;
+ width: 50px;                 
+  height: 50px;  
+  align-items: center;
+  justify-content: center;
+  margin-top: -270px; 
+ 
+}
+
+
+   .cyc i {
+  font-size: 22px; 
+}
+
+/* design barati*/
+
+.design{
+      display: grid;
+ flex-direction: column;
+    background-color: #fff;
+    padding: 0 20px 80px;   
+    margin-top: 0;
+    width: 360px;
+    height: 280px;
+    position: relative; 
+}
+
+.design h4{
+    margin-top: 50px;
+    font-size: 22px;
+
+}
+
+.design p {
+    color: #8a8fa3;
+}
+   
+
+.cyci{
+  display:flex;
+    width: 50px;
+    height: 50px;
+position:absolute; 
+background: linear-gradient(180deg, #ff6b4a, #ee3fa0);
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+top: -25px;
+left: 19px;
+}
+
+.cyci i {
+    color: white;
+}
+
+.design .btn1 {
+   position: relative;
+ top: -10px;
+}
+
+/* Photo barati*/
+
+.photo {
+ display: grid;
+ flex-direction: column;
+    background-color: #fff;
+    padding: 0 20px 80px;   
+    margin-top: 0;
+    width: 360px;
+    height: 280px;
+    position: relative; 
+}
+
+
+.photo h4 {
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.photo p {
+    color: #8a8fa3;
+}
+
+
+.cyc2 {
+    display:flex;
+    width: 50px;
+    height: 50px;
+position:absolute; 
+background: linear-gradient(180deg, #ff6b4a, #ee3fa0);
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+top: -25px;
+left: 19px;
+}
+
+.cyc2 i {
+    color: white;
+}
+
+
+
+.photo .btn1 {
+  position: relative;
+  top: -60px;            
+}
+
+/* crypto barati*/
+
+
+.crypto {
+     display: grid;
+ flex-direction: column;
+    background-color: #fff;
+    padding: 0 20px 80px;   
+    margin-top: 0;
+    width: 360px;
+    height: 280px;
+    position: relative; 
+}
+
+.crypto h4{
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.crypto p {
+    color: #8a8fa3;
+}
+
+.cyc3{
+    display:flex;
+    width: 50px;
+    height: 50px;
+position:absolute;
+background: linear-gradient(180deg, #ff6b4a, #ee3fa0);
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+top: -25px;
+left: 19px;
+}
+
+.cyc3 i{
+    color: white;
+}
+
+.crypto .btn2{
+    margin-top: -50px;
+}
+
+
+/* biznes barati*/
+
+.biz{
+    display: grid;
+ flex-direction: column;
+    background-color: #fff;
+    padding: 0 20px 80px;   
+    margin-top: 0;
+    width: 360px;
+    height: 280px;
+    position: relative; 
+}
+
+
+.biz h4{
+     margin-top: 50px;
+    font-size: 22px;
+}
+
+.biz p{
+    color: #8a8fa3;
+}
+
+.cyc4{
+     display:flex;
+    width: 50px;
+    height: 50px;
+position:absolute;
+background: linear-gradient(180deg, #ff6b4a, #ee3fa0);
+border-radius: 50%;
+align-items: center;
+justify-content: center;
+top: -25px;
+left: 19px;
+}
+
+.cyc4 i{
+    color: white;
+}
+
+.btn32{
+    position: relative;
+    top: -30px;
+}
+
+
+/*footer*/
+
+.site-footer {
+    justify-content: space-between;
+    align-items: center;
+  width: 100%;
+  background-color: #0a144b;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;        
+  max-width: 1200px;       
+  margin: 0 auto;      
+ padding: 30px 40px;
+
+
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.get-started-btn {
+  background: linear-gradient(135deg, #f02888, #7b2ff7);
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: auto;
+  margin-top: auto;
+}
