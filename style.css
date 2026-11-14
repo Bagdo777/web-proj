@@ -439,7 +439,6 @@ left: 19px;
     top: -30px;
 }
 
-
 /*footer*/
 
 .site-footer {
@@ -477,4 +476,38 @@ left: 19px;
   cursor: pointer;
   margin-bottom: auto;
   margin-top: auto;
+}
+
+
+@media (max-width: 1195px){
+
+    .courses{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px 30px;
+    }
+
+    .course-intro,
+    .animation,
+    .design,
+    .photo,
+    .crypto,
+    .biz{
+        width: 100%;
+    }
+}
+
+@media  (max-width: 600px){
+
+
+    .courses{
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+   
+    .mtavari{
+        display: none;
+    }
+
+   
 }
